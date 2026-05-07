@@ -6,5 +6,7 @@ backend/node_modules/
 *.db-shm
 frontend/dist/
 .env
+backend/.env
+frontend/.env
 .env.local
 dist/

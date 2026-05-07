@@ -3,13 +3,13 @@
 A full-stack collaborative task management app with role-based access control, Kanban boards, and a custom neon-cyber UI that stands apart from generic student templates.
 
 ## 🌐 Live Demo
-> **[https://your-app.up.railway.app](https://your-app.up.railway.app)**
+> **[https://task-flow-team-task-manager.vercel.app](https://task-flow-team-task-manager.vercel.app)**
 
 ## 📹 Demo Video
 > Link to 2–5 min Loom/YouTube demo
 
 ## 📦 GitHub
-> [https://github.com/your-username/taskflow](https://github.com/your-username/taskflow)
+> [https://github.com/amanthakur121/TaskFlow-Team-Task-Manager](https://github.com/amanthakur121/TaskFlow-Team-Task-Manager)
 
 ---
 
@@ -68,7 +68,7 @@ A full-stack collaborative task management app with role-based access control, K
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/taskflow.git
+git remote add origin https://github.com/amanthakur121/TaskFlow-Team-Task-Manager.git
 git push -u origin main
 ```
 
@@ -84,13 +84,13 @@ NODE_ENV=production
 JWT_SECRET=your-random-secret-string-here
 MONGO_URI=your-mongodb-connection-string
 DB_NAME=taskflow
-FRONTEND_URL=https://your-app.up.railway.app
+FRONTEND_URL=https://task-flow-team-task-manager.vercel.app
 PORT=4000
 ```
 
 > If you use Railway's MongoDB plugin, paste the generated connection string into `MONGO_URI`.
 
-Your app will be live at `https://your-app.up.railway.app` 🎉
+Your backend will be live at `https://your-app.up.railway.app` 🎉
 
 ---
 
